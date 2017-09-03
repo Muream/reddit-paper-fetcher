@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Image	picture.py	/^from PIL import Image$/;"	i
+Picture	picture.py	/^class Picture:$/;"	c
+Picture	reddit-wallpaper.py	/^from picture import Picture$/;"	i
+SCREEN_RESOLUTIONS	picture.py	/^    SCREEN_RESOLUTIONS = [(1920, 1080)]$/;"	v	class:Picture
+SUPPORTED_WEBSITES	picture.py	/^    SUPPORTED_WEBSITES = {'imgur': 'imgur', 'reddit': 'i.redd.it'}$/;"	v	class:Picture
+__init__	picture.py	/^    def __init__(self, url, directory):$/;"	m	class:Picture
+_get_extension	picture.py	/^    def _get_extension(self):$/;"	m	class:Picture
+_get_full_path	picture.py	/^    def _get_full_path(self):$/;"	m	class:Picture
+_get_name	picture.py	/^    def _get_name(self):$/;"	m	class:Picture
+_get_website	picture.py	/^    def _get_website(self):$/;"	m	class:Picture
+_is_valid	picture.py	/^    def _is_valid(self):$/;"	m	class:Picture
+client_secret	reddit-wallpaper.py	/^                     client_secret='0R7LVkDDXqknnIlkPTgqqtWPI1k',$/;"	v
+download	picture.py	/^    def download(self):$/;"	m	class:Picture
+download_from_imgur	picture.py	/^    def download_from_imgur(self):$/;"	m	class:Picture
+download_from_reddit	picture.py	/^    def download_from_reddit(self):$/;"	m	class:Picture
+get_first_valid_img	reddit-wallpaper.py	/^def get_first_valid_img(subreddit, path, limit=100):$/;"	f
+get_wallpaper	reddit-wallpaper.py	/^def get_wallpaper(subredditName='wallpapers', path='~\/Pictures\/reddit-wallpapers'):$/;"	f
+getopt	reddit-wallpaper.py	/^import getopt$/;"	i
+os	picture.py	/^import os$/;"	i
+os	reddit-wallpaper.py	/^import os$/;"	i
+praw	reddit-wallpaper.py	/^import praw$/;"	i
+publish	picture.py	/^    def publish(self):$/;"	m	class:Picture
+reddit	reddit-wallpaper.py	/^reddit = praw.Reddit(client_id='dz3EeHW-aZg1Tw',$/;"	v
+request	picture.py	/^import urllib.request$/;"	i
+sys	reddit-wallpaper.py	/^import sys$/;"	i
+urllib	picture.py	/^import urllib.request$/;"	i
+user_agent	reddit-wallpaper.py	/^                     user_agent='wallpaper-reddit')$/;"	v
