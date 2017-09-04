@@ -30,7 +30,11 @@ def get_first_valid_img(subreddit, path, limit=100):
         url = post.url
         picture = Picture(url, path)
         if picture.is_valid:
+            picture.publish()
             return picture
+        else:
+            if os.path.isfile(picture.path):
+                os.remove(picture.path)
 
 if __name__ == '__main__':
     get_wallpaper()

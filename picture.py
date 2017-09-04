@@ -72,7 +72,10 @@ class Picture:
 
     def publish(self):
         """converts the image to png and places it in the proper folder."""
-        newName = '.'.join(['wallpaper', self.extension])
-        newPath = os.path.join(self.directory, newName)
-        os.rename(self.path, newPath)
-        self.path = newPath
+        os.chdir(self.directory)
+        if not os.path.isdir('old'):
+            os.makedirs('old')
+        for file in os.listdir(self.directory):
+            if os.path.isfile(file):
+                if not file == self.name:
+                    os.rename(file, 'old/' + file)
