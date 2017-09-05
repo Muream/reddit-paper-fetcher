@@ -1,4 +1,4 @@
-# Reddit Wallpaper
+# Reddit Paper Fetcher
 
 This simple script's goal is to download the 1st image in a given subreddit
 to then be used by the tool of your choice to be set as a wallpaper
